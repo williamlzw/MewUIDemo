@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+	<PropertyGroup>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+	</PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Aprillz.MewUI" Version="0.22.1" />
+    <PackageReference Include="Aprillz.MewUI.Markdown" Version="0.22.1" />
+    <PackageReference Include="Aprillz.MewUI.MewCharts" Version="0.22.1" />
+    <PackageReference Include="Aprillz.MewUI.Svg" Version="0.22.1" />
+    <PackageReference Include="Aprillz.MewUI.WebView2.Win32" Version="0.22.1" />
+    <PackageReference Include="Vecc.YamlDotNet.Analyzers.StaticGenerator" Version="18.1.0" />
+    <PackageReference Include="YamlDotNet" Version="18.1.0" />
+  </ItemGroup>
+
+</Project>

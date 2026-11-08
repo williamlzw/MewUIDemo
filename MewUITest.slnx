@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="MewUIExtended/MewUIExtended.csproj" Id="d1dc77c3-fd06-4c28-823d-c3145d74d99c" />
+  <Project Path="MewUITest/MewUIDemo.csproj" />
+</Solution>

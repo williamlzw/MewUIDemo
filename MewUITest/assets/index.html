@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>MewUI 本地网页</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>欢迎使用 MewUI WebView2</h1>
+
+    <p>这是一个本地 HTML 页面。</p>
+
+    <button onclick="sendMessage()">
+        向 C# 发送消息
+    </button>
+
+    <script>
+        function sendMessage() {
+            window.chrome.webview.postMessage(
+                "你好，这是网页发送的消息！"
+            );
+        }
+    </script>
+</body>
+</html>
