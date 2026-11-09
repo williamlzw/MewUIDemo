@@ -18,8 +18,8 @@ class Program
         //X11Platform.Register();
         //MewVGX11Backend.Register();
 
-        MacOSPlatform.Register();
-        MewVGMacOSBackend.Register();
+        //MacOSPlatform.Register();
+        //MewVGMacOSBackend.Register();
 
         var mainWindow = CreateMainWindow();
         Application.Run(mainWindow);
