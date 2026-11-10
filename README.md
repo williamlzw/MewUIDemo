@@ -58,6 +58,9 @@ static void Main()
 ### demo_linux:  
 ![image](demo_image/demo_linux.png)   
 
+### demo_mac:  
+![image](demo_image/demo_mac.png)  
+
 ### demo_border:  
 ![image](demo_image/demo_border.png) 
 
